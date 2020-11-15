@@ -7,7 +7,8 @@ This project is an example api made with plumber integrating sample-cube from Sa
 You can run the api locally using Docker
 
 ```
-docker run -p 8000:8000 ragatzino/samplecube-r-api
+docker pull docker.pkg.github.com/cube-sampling/r-sampling-samplecube-integration/r-cube-sampling-api:latest
+docker run -p 8000:8000 docker.pkg.github.com/cube-sampling/r-sampling-samplecube-integration/r-cube-sampling-api:latest
 ```
 
 then access it through the doc at :
